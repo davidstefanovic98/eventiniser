@@ -26,7 +26,6 @@ import java.util.List;
 @EnableMethodSecurity(securedEnabled = true, jsr250Enabled = true)
 public class SecurityConfig {
 
-
     private final JwtProvider jwtProvider;
     private final SecurityProperties securityProperties;
 
